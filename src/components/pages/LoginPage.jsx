@@ -39,7 +39,7 @@ export default function LoginPage({ onLogin }) {
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             fontSize: 28, margin: '0 auto 16px',
           }}>⚡</div>
-          <h1 style={{ color: '#fff', fontSize: 26, fontWeight: 800, margin: '0 0 6px' }}>NexaAdmin</h1>
+          <h1 style={{ color: '#fff', fontSize: 26, fontWeight: 800, margin: '0 0 6px' }}>Admin</h1>
           <p style={{ color: 'rgba(255,255,255,0.65)', fontSize: 14, margin: 0 }}>Sign in to your dashboard</p>
         </div>
 
@@ -54,7 +54,7 @@ export default function LoginPage({ onLogin }) {
               Email address
             </label>
             <input
-              type="email" placeholder="admin@nexatech.io"
+              type="email" placeholder="admin@enesttech.io"
               value={email}
               onChange={e => { setEmail(e.target.value); setErrors(p => ({ ...p, email: '' })) }}
               style={{

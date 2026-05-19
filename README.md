@@ -1,4 +1,4 @@
-# NexaAdmin Dashboard
+# Admin Dashboard
 
 A responsive admin dashboard built with React + Vite.
 
